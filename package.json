@@ -1,7 +1,7 @@
 {
-  "name": "manage",
+  "name": "moment-manage",
   "version": "1.0.0",
-  "description": "This is a graduation project ---moment's manage",
+  "description": "This is a graduation project --- moment's manage",
   "author": "ShineTomorrow <beheroto@gmail.com>",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
