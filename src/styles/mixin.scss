@@ -1,0 +1,46 @@
+
+@mixin center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin centerX {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@mixin centerY {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@mixin textOverflow {
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.center {
+    @include center;
+}
+
+.center-x {
+    @include centerX;
+}
+
+.center-y {
+    @include centerY;
+}
+
+.text-overflow {
+    @include textOverflow;
+}
+
+.text-center {
+    text-align: center;
+}

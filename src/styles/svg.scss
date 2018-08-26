@@ -1,0 +1,14 @@
+.svg {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+
+    .dashboard{
+        background: url("../assets/svg/dashboard.svg") no-repeat;
+        background-size: 100% auto;
+    }
+    .content{
+        background: url("../assets/svg/content.svg") no-repeat;
+        background-size: 100% auto;
+    }
+}

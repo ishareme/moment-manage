@@ -1,0 +1,19 @@
+{
+    "presets": [
+        ["stage-1"],
+        ["es2015", {
+            "loose": false
+        }]
+    ],
+    "plugins": [
+        "transform-runtime",
+        "transform-vue-jsx",
+        "transform-object-rest-spread",
+        ["component", [
+            {
+                "libraryName": "element-ui",
+                "styleLibraryName": "theme-chalk"
+            }
+        ]]
+    ]
+}
