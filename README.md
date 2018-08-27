@@ -4,9 +4,9 @@ This is a graduation project --- moment's manage
 
 # Show
 
-![manage](https://github.com/ishareme/moment/blob/master/github/moment2.gif)
+![manage]https://github.com/ishareme/moment-manage/blob/master/github/moment2.gif)
 
-![WebApp](https://github.com/ishareme/moment/blob/master/github/moment3.gif)
+![WebApp](https://github.com/ishareme/moment-manage/blob/master/github/moment3.gif)
 
 ## Article
 
